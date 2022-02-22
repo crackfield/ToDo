@@ -1,0 +1,25 @@
+table {
+  margin-top: 25px;
+}
+
+th {
+  border: 0;
+}
+
+th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+th:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.delete:hover,
+.archive:hover,
+.edit:hover,
+#delall:hover,
+#archieved:hover {
+  cursor: pointer;
+}
